@@ -1,0 +1,12 @@
+# Fine riga fissate, indipendenti dalle impostazioni di Git di chi carica i file
+* text=auto
+
+# Script Mac: devono avere fine riga Unix, altrimenti non partono
+*.sh  text eol=lf
+
+# Script Windows
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Leggibile anche col Blocco note di Windows
+*.txt text eol=crlf

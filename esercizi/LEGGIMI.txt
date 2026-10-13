@@ -1,0 +1,10 @@
+Qui metti i tuoi programmi.
+
+Crea una cartella per ogni lezione, ad esempio:
+
+    01-primi-passi
+    02-if
+    03-cicli
+
+e dentro scrivi i tuoi file .py.
+Per provare un programma: aprilo e premi F5.

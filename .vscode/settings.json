@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+
+  // Niente suggerimenti grigi dentro il codice (es. nomi dei parametri)
+  "editor.inlayHints.enabled": "off",
+
+  // Formattazione automatica al salvataggio con Ruff
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+
+  // Nessun controllo dei tipi: per chi inizia sono solo avvisi confusi
+  "python.analysis.typeCheckingMode": "off",
+  "python.terminal.activateEnvironment": false,
+
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.ruff_cache": true
+  },
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
