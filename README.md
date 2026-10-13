@@ -1,6 +1,6 @@
 # Corso di Python
 
-Ambiente di lavoro per programmare in Python con VS Code, uguale su Windows e Mac.
+Ambiente di lavoro per programmare in Python con VS Code, uguale su Windows, Mac e Linux.
 Usa lo stesso profilo **"Corso Info"** del corso di C: se hai già installato quello,
 lo script aggiunge solo Python e le sue estensioni.
 
@@ -26,6 +26,14 @@ Se non l'hai già fatto per il corso di C, scaricalo da <https://code.visualstud
 3. Se si apre l'installazione di Python, completala (ti chiede la password del Mac),
    poi chiudi il Terminale, aprine uno nuovo nella cartella e rilancia lo stesso comando.
 
+**Linux** (Ubuntu/Debian/Mint, Fedora, Arch, openSUSE)
+1. Apri il Terminale nella cartella `Corso-Python`.
+2. Scrivi:
+   ```
+   bash setup/setup-linux.sh
+   ```
+3. Inserisci la tua password quando richiesta (serve per installare i pacchetti).
+
 ### 3. Apri la cartella in VS Code
 Durante l'installazione lo script apre da solo VS Code sulla cartella `Corso-Python`,
 usando il **profilo "Corso Info"** (lo vedi in basso a sinistra, icona dell'ingranaggio).
@@ -37,7 +45,7 @@ VS Code si ricorda di usare il profilo "Corso Info".
 
 È tutto come nel corso di C:
 
-| Cosa vuoi fare | Windows | Mac |
+| Cosa vuoi fare | Windows / Linux | Mac |
 |---|---|---|
 | Eseguire (con debug) | `F5` | `F5` (o `Fn+F5`) |
 | Mettere un breakpoint | clic a sinistra del numero di riga | uguale |
