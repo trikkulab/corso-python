@@ -9,7 +9,7 @@ lo script aggiunge solo Python e le sue estensioni.
 ### 1. Installa VS Code
 Se non l'hai già fatto per il corso di C, scaricalo da <https://code.visualstudio.com> e installalo.
 
-### 2. Installa Python
+### 2. Installa Python e Git
 
 **Windows**
 1. Apri la cartella `Corso-Python`, poi la cartella `setup`.
